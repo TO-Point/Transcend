@@ -1,3 +1,11 @@
+## Install
+/consent-manager.js needs to be added to the page.
+The page also needs a clickable element with the id="transcend-opt-out" which is the UI for reporting consent preference status and the method to open the mananger.
+```
+<div id="transcend-opt-out" class="text-size-small" style="display: none;">Do not sell or share my personal information.</div>
+```
+
+
 ## Styling
 All of this is managed through Transcend web app, and loaded through an airgap script param.
 The css file in this repo is a back up.
