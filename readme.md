@@ -1,9 +1,10 @@
-**Notes**
+**Some notes that helped me debug things**
+
 **Show UI**
 ```
 transcend.showConsentManager({ viewState: 'CompleteOptions' })
  ```
-**Check consent: **
+**Check consent:**
 ```
 // Listen for consent change events
 airgap.addEventListener(
@@ -19,7 +20,7 @@ airgap.addEventListener(
   }
 );
 ```
-**Reponses from checking consent: **
+**Reponses from checking consent:**
 ```
 const data = {
   confirmed: true,
@@ -30,3 +31,8 @@ const data = {
     Analytics: true,
   },
 ```
+**Check Regime**
+```
+airgap.getRegimes().has('CPRA')
+```
+(There are other regimes, like: 'GDPR' we only care about CPRA.)
