@@ -1,4 +1,3 @@
-
 // Wait for the DOM to load
 document.addEventListener('DOMContentLoaded', function() {
 // Get the element with the 'transcend-opt-out' id
@@ -12,7 +11,7 @@ if (airgap.getRegimes().has('CPRA')) {
     optOutElement.style.display = 'block';
 
     // Set the initial text
-    optOutElement.textContent = 'Do not sell or share my personal information.';
+    optOutElement.textContent = 'Manage how Point handles your personal information.';
 
     // Add a click event listener
     optOutElement.addEventListener('click', function() {
