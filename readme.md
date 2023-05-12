@@ -48,3 +48,6 @@ const data = {
 airgap.getRegimes().has('CPRA')
 ```
 (There are other regimes, like: 'GDPR' we only care about CPRA.)
+
+**Typings**
+https://github.com/transcend-io/airgap.js-types/blob/main/src/core.ts#L205-L213
