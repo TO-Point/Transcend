@@ -51,5 +51,6 @@ airgap.getRegimes().has('CPRA')
 
 **Typings**
 https://github.com/transcend-io/airgap.js-types/blob/main/src/core.ts#L205-L213
+
 **Regime Overrides**
 https://docs.transcend.io/docs/consent/reference/debugging-and-testing
