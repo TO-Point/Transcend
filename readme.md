@@ -1,9 +1,10 @@
 **Notes**
-
 **Show UI**
+```
 transcend.showConsentManager({ viewState: 'CompleteOptions' })
-  
+ ```
 **Check consent: **
+```
 // Listen for consent change events
 airgap.addEventListener(
   'consent-change',
@@ -17,9 +18,9 @@ airgap.addEventListener(
     });
   }
 );
-
-
-**Reposnes for checking consent: **
+```
+**Reposnes from checking consent: **
+```
 const data = {
   confirmed: true,
   purposes: {
@@ -28,4 +29,4 @@ const data = {
     SaleOfInfo: false,
     Analytics: true,
   },
-  
+```
