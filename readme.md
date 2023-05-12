@@ -8,7 +8,7 @@ The page also needs a clickable element with the id="transcend-opt-out" which is
 
 ## Styling
 All of this is managed through Transcend web app, and loaded through an airgap script param.
-The css file in this repo is a back up.
+The css file in this repo is a back up. (Transcend wiped custom styles once already.)
 
 ## Some notes that helped me debug things
 
