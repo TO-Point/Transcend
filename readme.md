@@ -19,7 +19,7 @@ airgap.addEventListener(
   }
 );
 ```
-**Reposnes from checking consent: **
+**Reponses from checking consent: **
 ```
 const data = {
   confirmed: true,
