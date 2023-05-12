@@ -1,4 +1,8 @@
-**Some notes that helped me debug things**
+## Styling
+All of this is managed through Transcend web app, and loaded through an airgap script param.
+The css file in this repo is a back up.
+
+## Some notes that helped me debug things
 
 **Show UI**
 ```
