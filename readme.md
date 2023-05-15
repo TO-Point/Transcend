@@ -16,6 +16,9 @@ The css file in this repo is a back up. (Transcend wiped custom styles once alre
 ```
 transcend.showConsentManager({ viewState: 'CompleteOptions' })
  ```
+**Force relevant Regime: (CPRA)**
+https://point.dev/#:~:tcm-regime=CPRA
+
 **Check consent:**
 ```
 // Listen for consent change events
