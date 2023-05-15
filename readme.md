@@ -57,3 +57,8 @@ https://github.com/transcend-io/airgap.js-types/blob/main/src/core.ts#L205-L213
 
 **Regime Overrides**
 https://docs.transcend.io/docs/consent/reference/debugging-and-testing
+
+**Example of the UI that opens the Consent Management**
+![image](https://github.com/TO-Point/Transcend-CCPA/assets/93610040/6b6f68a0-86e9-4cba-9a1f-25f5a13e9f64)
+
+
