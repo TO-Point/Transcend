@@ -4,7 +4,7 @@ The page also needs a clickable element with the id="transcend-opt-out" which is
 ```
 <div id="transcend-opt-out" class="text-size-small" style="display: none;">Do not sell or share my personal information.</div>
 ```
-
+## on PDC this is in the start of body tags component
 
 ## Styling
 All of this is managed through Transcend web app, and loaded through an airgap script param.
