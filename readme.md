@@ -1,3 +1,7 @@
+## Notes
+Consent Management > Display Settings > Style | Messages
+Regional Experiences > CPRA
+
 ## Install
 /consent-manager.js needs to be added to the page.
 The page also needs a clickable element with the id="transcend-opt-out" which is the UI for reporting consent preference status and the method to open the mananger.
