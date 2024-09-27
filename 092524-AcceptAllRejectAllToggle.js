@@ -11,16 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Always display the opt-out element for users in the CPRA regime
     optOutElement.style.display = 'flex';
 
-    // Fetch the current consent status
-    const consent = airgap.getConsent();
-
-    // Check the SaleOfInfo and Advertising values and set text
-    if (consent.purposes.Advertising === false) {
-      optOutElement.textContent = 'We No Longer Sell or Share Your Personal Information.';
-    } else {
-      optOutElement.textContent = 'Your Privacy Choices';
-    }
-
     // Add a click event listener
     optOutElement.addEventListener('click', function() {
       // Open the Transcend Consent Manager with the CompleteOptions view
