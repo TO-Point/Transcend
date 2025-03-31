@@ -1,3 +1,4 @@
+// This only covers CPRA regime, for do not sell.
 // Wait for the DOM to load
 document.addEventListener('DOMContentLoaded', function() {
   // Get the element with the 'transcend-opt-out' id
