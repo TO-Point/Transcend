@@ -1,15 +1,10 @@
-// Wait for the DOM to load
 document.addEventListener('DOMContentLoaded', function() {
-  // Get the element with the 'transcend-opt-out' id
-  const optOutElement = document.getElementById('transcend-opt-out');
-
-  // Hide the element by default
+  const optOutElement = document.querySelector('[transcend="do-not-sell"]');
   optOutElement.style.display = 'none';
 
-  // Check if the user falls under the CPRA regime
-  if (airgap.getRegimes().has('CPRA')) {
-    // Always display the opt-out element for users in the CPRA regime
-    optOutElement.style.display = 'block';
+  // Check if the user falls under the do-not-sell regime
+  if (airgap.getRegimes().has('do-not-sell')) {
+    optOutElement.style.display = 'flex';
 
     // Fetch the current consent status
     const consent = airgap.getConsent();
